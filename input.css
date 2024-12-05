@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-green-950 text-white font-Italian text-3xl tracking-wider
+}
+
+.nav-link{
+    @apply text-2xl font-semibold duration-300
+}
+
+.nav-link:hover{
+    @apply text-yellow-600
+}
+
+section{
+    @apply py-20 md:py-28
+}
+
+h1{
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+}
+
+.btn{
+    @apply border-yellow-200 border-2 font-bold p-1
+}
+
+.btn-transparent{
+    @apply bg-transparent
+}
+
+.btn:hover{
+    @apply bg-yellow-600
+}
+
+.btn>span{
+    @apply text-center p-4
+}
+
+
